@@ -1,0 +1,12 @@
+[submodule "be-analytics-api"]
+	path = be-analytics-api
+	url = https://github.com/UnBoundMarketplace/be-analytics-api.git
+[submodule "be-contracts"]
+	path = be-contracts
+	url = https://github.com/UnBoundMarketplace/be-contracts.git
+[submodule "fe-platform"]
+	path = fe-platform
+	url = https://github.com/UnBoundMarketplace/fe-platform.git
+[submodule "documents"]
+	path = documents
+	url = https://github.com/UnBoundMarketplace/documents.git
