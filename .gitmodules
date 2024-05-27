@@ -1,15 +1,15 @@
 [submodule "be-analytics-api"]
 	path = be-analytics-api
-	url = https://github.com/UnBoundMarketplace/be-analytics-api.git
+	url = https://github.com/veda-marketplace/be-analytics-api.git
 [submodule "be-contracts"]
 	path = be-contracts
-	url = https://github.com/UnBoundMarketplace/be-contracts.git
+	url = https://github.com/veda-marketplace/be-contracts.git
 [submodule "fe-platform"]
 	path = fe-platform
-	url = https://github.com/UnBoundMarketplace/fe-platform.git
+	url = https://github.com/veda-marketplace/fe-platform.git
 [submodule "documents"]
 	path = documents
-	url = https://github.com/UnBoundMarketplace/documents.git
+	url = https://github.com/veda-marketplace/documents.git
 [submodule "be-discord-bot"]
-	path = documents
-	url = https://github.com/UnBoundMarketplace/be-discord-bot.git
+	path = be-discord-bot
+	url = https://github.com/veda-marketplace/be-discord-bot.git
