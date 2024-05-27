@@ -1,28 +1,26 @@
 # VeDA Verifiable Digital Assets Platform
-   <img src="https://imgur.com/n6OHZjq.png" alt="site"/>
-## Inspiration
 
-The traditional and existing digital marketplaces often fall short in establishing the verifiability and copyright of digital assets being sold. This gap inspired us to create the VeDA (Verifiable Digital Assets) Platform. Our goal is to provide creators and buyers with a marketplace that ensures peace of mind by facilitating the creation, minting, and trading of digital assets in a secure and trustworthy environment.
+## Welcome to the VeDA Verifiable Digital Assets Platform
 
-- **For Creators**: We aim to empower creators to confidently create and sell their digital creations, knowing their work is protected and verifiable.
+<p align="center" width="100%">
+  <img src="https://imgur.com/n6OHZjq.png" alt="site"/>
+</p>
 
-- **For Buyers**: We strive to equip buyers with comprehensive information about the potential future value of the digital art they plan to purchase, allowing them to make informed decisions.
-
-- **For Existing Digital Asset Owners**: We offer a way to identify and establish copyright for their assets, safeguarding their intellectual property.
-
-This vision drives us to innovate and provide a platform that addresses these critical needs, fostering a more secure and reliable digital asset marketplace.
-
-### VeDA Mind Map
-<img src="https://imgur.com/Ws0yT5d.png" alt="image">
-
-### Feature Mind Map
-<img src="https://imgur.com/Ws0yT5d.png" alt="image">
+> ## Table of contents
+- [Overview](#overview)
+- [Core Features Implemented](#core-features-implemented)
+- [Technologies](#technologies)
+- [Veda-MVP Contract Address](#Nft-factory-contract-address)
+- [Live Link](#live-link)
+- [Contributors](#contributors)
+- [Contributing to the project](#contributing-to-the-project)
 
 
-### VeDA Use Case
-<img src="https://imgur.com/WaMQ8f1.png" alt="image">
+#
+> ## Core Features Implemented
 
-## What it does
+`Deployment on Avalanche chain`
+- Deployment on Avalanche chain.
 
 The VeDA platform provide the web3 digital arts community following functionality
 
@@ -42,6 +40,41 @@ The VeDA platform provide the web3 digital arts community following functionalit
 
     - Ability to check any copyright breach for the digital arts they own on the VeDA discord server
     - Ability to check if a specific digital arts if being used on discord as a profile pic without users consent
+
+
+
+
+#
+> ## Technologies
+| <b><u>Stack</u></b> | <b><u>Usage</u></b> |
+| :------------------ | :------------------ |
+| **`Solidity`**      | Smart contract      |
+| **`Next JS`**      | Frontend            |
+
+
+
+
+
+## Inspiration
+
+#
+> ## Overview
+The traditional and existing digital marketplaces often fall short in establishing the verifiability and copyright of digital assets being sold. This gap inspired us to create the VeDA (Verifiable Digital Assets) Platform. Our goal is to provide creators and buyers with a marketplace that ensures peace of mind by facilitating the creation, minting, and trading of digital assets in a secure and trustworthy environment.
+
+- **For Creators**: We aim to empower creators to confidently create and sell their digital creations, knowing their work is protected and verifiable.
+
+- **For Buyers**: We strive to equip buyers with comprehensive information about the potential future value of the digital art they plan to purchase, allowing them to make informed decisions.
+
+- **For Existing Digital Asset Owners**: We offer a way to identify and establish copyright for their assets, safeguarding their intellectual property.
+
+This vision drives us to innovate and provide a platform that addresses these critical needs, fostering a more secure and reliable digital asset marketplace.
+
+### VeDA Mind Map
+![Mind Map](https://github.com/UnBoundMarketplace/documents/blob/main/diagrams/VeDAMindMap.png)
+![Feature Mind Map](https://github.com/UnBoundMarketplace/documents/blob/main/diagrams/VeDAFeatureMindMap.png)
+
+### VeDA Use Case
+![Use Cases](https://github.com/UnBoundMarketplace/documents/blob/main/diagrams/VeDAUseCases.png)
 
 ## What We Learned
 
@@ -108,15 +141,11 @@ To manage our project efficiently, we adopted the SCRUM methodology, conducting 
 - **Chainlink Functions**: Implemented for critical functionalities:
 
     - **Verification Function**: Utilized Google Cloud Vision AI to verify NFTs, creating a Node.js REST API to process and annotate NFT images using IPFS hashes.
+      ![Verification API](https://github.com/UnBoundMarketplace/documents/blob/main/diagrams/AnalyticsAPISequenceDiagram.png)
+      ![Verification API](https://github.com/UnBoundMarketplace/documents/blob/main/diagrams/VeDAAnalyticsAPIFlowchart.png)
 
- ### Verification API
-
-<img src="https://imgur.com/31enLeg.png" alt="image">
-<img src="https://imgur.com/dDMXtnt.png" alt="image">
-
-- **Copyright Function**: Developed to check for copyright issues, indexing Discord profiles to identify potential copyright theft through pixel comparison.
-
-<img src="https://imgur.com/c4BDY63.png" alt="image">
+    - **Copyright Function**: Developed to check for copyright issues, indexing Discord profiles to identify potential copyright theft through pixel comparison.
+      ![Copyright API](https://github.com/UnBoundMarketplace/documents/blob/main/diagrams/VeDACopyrightFlowchart.png)
 
 #### REST APIs:
 
@@ -191,3 +220,66 @@ By pursuing these goals, we aim to solidify VeDA's position as a leader in the d
 
 Thank you for the opportunity to share our story!
 
+#
+> ## Veda Contract Address/ Available 2 transaction hash 
+## sepolia deployment
+
+## AnalyticsAPICaller
+
+- Contract Address: 0x355A7F434c0A7deaE86F5A5DbE88e71CD12a6CB9
+- Chainlink subscription: https://functions.chain.link/sepolia/2638
+- 
+
+Tx:
+
+-
+
+
+- 
+
+the transaction hashes
+
+
+# 
+
+## Useful links
+
+## View attribution files here
+
+
+
+## Explainer video (User POV)
+
+
+
+## Demo Video (Clients POV)
+
+
+
+- [Frontend Deployment](https://nft-assets-c8r6.vercel.app/)
+- [Figma design](https://www.figma.com/design/7puetB2mKwmUBhSm9BsoCS/VeDA?node-id=27-491&t=Ba6VCdfZNqmtwNwn-0)
+
+
+> ## Contributors
+
+This Project was created by these awesome dedicated members
+
+<p align="center" width="100%">
+  <img src="https://imgur.com/9D7uUj2.png" alt="team"/>
+</p>
+
+#
+> ## Contributing to the project
+
+If you find something worth contributing, please fork the repo, make a pull request and add valid and well-reasoned explanations about your changes or comments.
+
+Before adding a pull request, please note:
+
+- This is an open source project.
+- Your contributions should be inviting and clear.
+- Any additions should be relevant.
+- New features should be easy to contribute to.
+
+All **`suggestions`** are welcome!
+#
+> ##### README Created by `Enebeli Emmanuel` for Zeus Labs
