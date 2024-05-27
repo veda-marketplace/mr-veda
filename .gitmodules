@@ -10,3 +10,6 @@
 [submodule "documents"]
 	path = documents
 	url = https://github.com/UnBoundMarketplace/documents.git
+[submodule "be-discord-bot"]
+	path = documents
+	url = https://github.com/UnBoundMarketplace/be-discord-bot.git
